@@ -64,7 +64,7 @@ int distLimite = 20;           // distancia limite para o sensor em cm
 // executado na inicialização do Arduino
 void setup(){
   Serial.begin(9600);          // inicializa a comunicação serial
-  myservo.attach(10);          // anexa o servo motor lógico ao físico no pino 10.
+  myservo.attach(9);          // anexa o servo motor lógico ao físico no pino 10.
   pinMode(inA1, OUTPUT);       // pinos dos motores como saídas 
   pinMode(inA2, OUTPUT);
   pinMode(inB1, OUTPUT);
